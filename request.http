@@ -1,9 +1,9 @@
 
-GET http://localhost:8080/demo/all
+GET http://localhost:8080/usuario/all
 
 ###
 
-POST http://localhost:8080/demo/add HTTP/1.1
+POST http://localhost:8080/usuario/add HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 
 name=Ernesto
@@ -11,7 +11,7 @@ name=Ernesto
 
 ###
 
-PUT http://localhost:8080/demo/edit HTTP/1.1
+PUT http://localhost:8080/usuario/edit HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 
 id=102
@@ -20,14 +20,14 @@ id=102
 
 ###
 
-DELETE http://localhost:8080/demo/del HTTP/1.1
+DELETE http://localhost:8080/usuario/del HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 
 id=54
 
 ###
 
-GET http://localhost:8080/demo/get/102
+GET http://localhost:8080/usuario/get/102
 
 ###
 
